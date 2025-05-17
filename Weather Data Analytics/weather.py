@@ -698,7 +698,7 @@ def main():
     if len(sys.argv) > 1:
         file_path = sys.argv[1]
     else:
-        file_path = "weather copy 3.csv"  # Default filename
+        file_path = "weather_data.csv"  # Default filename
 
     print(f"Loading data from {file_path}...")
     if analyzer.load_data(file_path):
